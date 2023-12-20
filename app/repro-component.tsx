@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ReproElement = styled.p`
     &::before {
-        content: '\\a9';
+        content: '©';
     }
 `;
 
