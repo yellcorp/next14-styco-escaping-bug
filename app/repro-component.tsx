@@ -2,7 +2,8 @@
 
 import styled from 'styled-components';
 
-const ReproElement = styled.p`
+const pFactory = styled.p;
+const ReproElement = pFactory`
     &::before {
         content: '\\a9';
     }
