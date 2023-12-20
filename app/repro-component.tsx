@@ -2,9 +2,11 @@
 
 import styled, {css} from 'styled-components';
 
+const cssAlias = css;
+
 const ReproElement = styled.p`
     &::before {
-        ${css`
+        ${cssAlias`
             content: '\\a9';
         `}
     }
