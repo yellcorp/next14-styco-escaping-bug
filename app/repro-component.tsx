@@ -1,10 +1,12 @@
 'use client';
 
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 const ReproElement = styled.p`
     &::before {
-        content: '\\a9';
+        ${css`
+            content: '\\a9';
+        `}
     }
 `;
 
